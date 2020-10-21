@@ -1,0 +1,70 @@
+@charset "UTF-8";
+body {
+	height: auto;
+	margin: auto;
+	background-color: #5a6275;
+}
+
+form {
+	margin: 10%;
+	margin-left: 18%;
+}
+
+th {
+	font-size: 25px;
+}
+
+textarea {
+	height: 100px;
+	width: 300px;
+	resize: none;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+#joinwrap {
+	border: 1px solid;
+	width: 500px;
+	margin-top: 2%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 2%;
+	background-color: white;
+}
+
+#phonetxt {
+	width: 180px;
+	height: 30px;
+}
+
+#checktxt {
+	width: 300px;
+	height: 30px;
+}
+
+#checkbtn {
+	width: 110px;
+	height: 30px;
+	border: none;
+	background-color: #5a6275;
+	color: white;
+}
+
+#joinbtn {
+	width: 310px;
+	height: 35px;
+	border: none;
+	background-color: #5a6275;
+	color: white;
+}
+
+.text {
+	width: 300px;
+	height: 30px;
+}
+
+.menu {
+	text-align: left;
+	font-size: 12px;
+	padding-top: 3%;
+}

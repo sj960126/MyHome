@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+body{
+    height: 100%;
+    width : 1900px;
+    margin: auto;
+    background-color: #edddc2;
+}
+div{
+	display: inline-block;
+}
+.logo{position: absolute;
+       left: 80px;
+       top: 30px;}
+.wrap{
+	margin-left : 50px;
+	width: 1800px;
+	height : 900px;
+	background-color: white;
+}
+ul{
+	list-style: none;
+	margin-left : 600px;	
+}
+ul li{
+	float: left;
+	padding-left : 60px;
+}
+a{
+	font-size : 17px;
+	color : #5a6275;
+	text-decoration: none;
+}
+a:hover{
+	font-size : 17px;
+	color : #1c7bff;
+	text-decoration: none;
+}
+
+#chart_div{
+	border : 1px solid;
+	margin-top : 40px;
+}

@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+body {
+    height: auto;
+    width : 1900px;
+    margin: auto;
+    background-color: #edddc2;
+}
+div{
+	display: inline-block;
+}
+#table1 {
+	height: 500px;
+    width: 100%;
+    border: 1px solid #444444;
+    line-height : 30px;
+  }
+.logo{position: absolute;
+       left: 90px;
+       top: 30px;}
+.wrap{
+	margin-left : 50px;
+	width: 1800px;
+	height : 900px;
+	background-color: white;
+}
+ul{
+	list-style: none;
+	margin-left : 700px;	
+}
+ul li{
+	float: left;
+	padding-left : 50px;
+}
+a{
+	font-size : 17px;
+	color : #5a6275;
+	text-decoration: none;
+}
+a:hover{
+	font-size : 17px;
+	color : #1c7bff;
+	text-decoration: none;
+}
+
+.view{
+	margin-left :12%;
+	margin-top :8%;
+}
+
+#piechart_3d{
+	border : 1px solid;
+}
+
+#uu{
+	height : 50px;
+	font-size :25px;
+}
+
+.submit {
+	background-color: white;
+	border: 1px solid white;
+	color: black;
+	
+}
+.submit:hover {
+	background-color: #fff;
+	border-color: #59b1eb;
+	color: #59b1eb;
+}
+
+
+
+#table1 tr:first-child {
+  background:#eef7ff;
+  text-align:center;
+}
+
+#table1 {
+  max-height:500px;
+  overflow-y:scroll;	
+  border-top:1px solid #dedede;
+  border-bottom:1px solid #dedede;
+  text-align:center;
+  border-collapse:collapse;  
+}
+
+#tb1_tr {
+  border-bottom:1px solid  #dedede;
+}
+
